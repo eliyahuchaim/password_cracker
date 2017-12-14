@@ -77,7 +77,7 @@ class Runner
       # keep doing noting
     end
 
-    p "Code is: #{result[1]} and it took #{self.seconds} seconds"
+    p "Code to vault: #{self.vault.name} is: #{result[1]} and it took #{self.seconds} seconds. You just lost $#{self.vault.value} from your vault :("
   end
 
 
